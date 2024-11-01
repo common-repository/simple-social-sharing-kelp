@@ -1,0 +1,51 @@
+/* Base Styles */
+.simple-social-sharing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.simple-social-sharing a {
+  text-decoration: none;
+}
+.simple-social-sharing a:hover,
+.simple-social-sharing a:focus {
+  opacity: 0.9;
+  text-decoration: none;
+}
+.simple-social-sharing path {
+  fill: currentColor;
+}
+
+/* Layout */
+.simple-social-sharing.vertical {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Design Style */
+.simple-social-sharing.circles a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.simple-social-sharing.squircles a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.simple-social-sharing.square a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simple-social-sharing.basic a {
+  background-color: transparent !important;
+}
